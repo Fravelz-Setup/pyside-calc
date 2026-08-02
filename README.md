@@ -5,8 +5,9 @@ Calculadora flotante en PySide6 para Sway. Sustituye la antigua calculadora Rofi
 ## Uso
 
 - `Super+=` abre la ventana (binding de Sway → `~/.local/bin/pyside-calc`)
-- Escribe una expresión (`10+10`, `2^8`, `(3+1)*2`)
+- Izquierda: escribe una expresión (`10+10`, `2^8`, `(3+1)*2`)
 - Aparece `expr = resultado`; **Enter** o clic copia el número (`wl-copy`) y notifica
+- Derecha: panel **Notas** (se guarda en `~/.local/share/pyside-calc/notes.txt`)
 - **Escape** cierra
 
 ## Instalación local
