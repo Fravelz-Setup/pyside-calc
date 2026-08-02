@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Launcher for Sway Super+= binding.
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+VENV_PY="$ROOT/.venv/bin/python"
+
+export PYTHONPATH="$ROOT/src${PYTHONPATH:+:$PYTHONPATH}"
+
+if [[ -x "$VENV_PY" ]]; then
+  exec "$VENV_PY" -m pyside_calc "$@"
+fi
+
+if command -v python3 >/dev/null 2>&1; then
+  exec python3 -m pyside_calc "$@"
+fi
+
+echo "pyside-calc: no Python runtime found" >&2
+exit 1

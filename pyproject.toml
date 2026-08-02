@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyside-calc"
+version = "0.1.0"
+description = "Floating calculator for Sway (Super+=), PySide6 UI"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PySide6>=6.6",
+]
+
+[project.scripts]
+pyside-calc = "pyside_calc.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
