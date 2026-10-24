@@ -1,7 +1,7 @@
 <h1 align="center">pyside-calc</h1>
 
 <p align="center">
-  <img src="assets/readme-hero.jpg" alt="Banner carbón y papel de la calculadora flotante" width="100%">
+  <img src="assets/readme-hero.png" alt="Calculadora flotante: 20+20 = 40 y el panel de notas" width="100%">
 </p>
 
 <p align="center">Calculadora flotante para Sway. Cerrada en ese tamaño.</p>
