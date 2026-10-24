@@ -18,7 +18,7 @@ Se abre con Super+=. Escribe la expresión, Enter copia el número con `wl-copy`
   </a>
 </p>
 
-## ✨ Características
+## Características
 
 - Ventana flotante para una expresión.
 - Copia el resultado al portapapeles de Wayland.
@@ -27,12 +27,12 @@ Se abre con Super+=. Escribe la expresión, Enter copia el número con `wl-copy`
 > [!NOTE]
 > El atajo de Sway es `bindsym $mod+equal exec ~/.local/bin/pyside-calc`.
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Python y PySide6** — la ventana.
 - **wl-copy** — copiar el resultado en Sway.
 
-## 🚀 Inicio rápido
+## Inicio rápido
 
 ```bash
 python3 -m venv .venv
@@ -43,20 +43,20 @@ ln -sfn "$(pwd)/scripts/pyside-calc" ~/.local/bin/pyside-calc
 > [!IMPORTANT]
 > Hace falta el venv y el enlace en `~/.local/bin`. Sin eso, Super+= no encuentra el comando.
 
-## 📖 Uso
+## Uso
 
 Escribe `10+10` o `(3+1)*2`. Enter copia el número y cierra la cuenta. Escape cierra la ventana.
 
 > [!TIP]
 > Para probar sin el atajo: `.venv/bin/python -m pyside_calc`.
 
-## 🤝 Contribuir
+## Contribuir
 
 > [!CAUTION]
 > Está cerrada en este tamaño. No la conviertas en otra calculadora.
 
 Repositorio de [FraVelz](https://github.com/FraVelz).
 
-## 📄 Licencia
+## Licencia
 
 Este repositorio no incluye un archivo de licencia. El uso previsto es personal.
